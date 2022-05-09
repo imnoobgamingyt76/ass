@@ -14,14 +14,14 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(75, 81, 12)
-Frame.Position = UDim2.new(0.317865431, 0, 0, 0)
-Frame.Size = UDim2.new(0, 339, 0, 58)
+Frame.Position = UDim2.new(0.096287705, 0, 0, 0)
+Frame.Size = UDim2.new(0, 530, 0, 58)
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
-TextLabel.Position = UDim2.new(-0.00260177255, 0, 0.159999996, 0)
-TextLabel.Size = UDim2.new(0, 339, 0, 50)
+TextLabel.Position = UDim2.new(-0.0013320297, 0, 0.125517249, 0)
+TextLabel.Size = UDim2.new(0, 534, 0, 50)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Please hold any fruit to dupe only works on some fruit "
+TextLabel.Text = "--It only work on some fruit use it at your own risk theres a chance that it will take away your fruit"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
