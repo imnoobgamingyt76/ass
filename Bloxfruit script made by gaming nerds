@@ -1,11 +1,27 @@
-while true do
-local A_1 = "Battlep" local A_2 = "All" 
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
-wait("0.5")
-local A_1 = "Ass" local A_2 = "All" 
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
-wait("0.2")
-local A_1 = "I am hacking pls report me" local A_2 = "All" 
-local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2)
-wait("0.1")
-end
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(75, 81, 12)
+Frame.Position = UDim2.new(0.317865431, 0, 0, 0)
+Frame.Size = UDim2.new(0, 339, 0, 58)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+TextLabel.Position = UDim2.new(-0.00260177255, 0, 0.159999996, 0)
+TextLabel.Size = UDim2.new(0, 339, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Please hold any fruit to dupe only works on some fruit "
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
